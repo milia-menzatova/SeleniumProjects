@@ -265,3 +265,82 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1620701435820	geckodriver	INFO	Listening on 127.0.0.1:55707
+1620701438886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofilextsymo"
+1620701439339	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620701442465	Marionette	INFO	Listening on port 55715
+1620701442608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 65: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+1620701454222	Marionette	INFO	Stopped listening on port 55715
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620702372837	geckodriver	INFO	Listening on 127.0.0.1:55868
+1620702375938	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileGCNjVS"
+1620702376394	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620702379414	Marionette	INFO	Listening on port 55876
+1620702379625	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 65: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1620702390254	Marionette	INFO	Stopped listening on port 55876
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620735950527	geckodriver	INFO	Listening on 127.0.0.1:57030
+1620735953593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileqdBpKj"
+1620735954157	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620735957558	Marionette	INFO	Listening on port 57038
+1620735957791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 65: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1620736292546	Marionette	INFO	Stopped listening on port 57038
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620736757315	geckodriver	INFO	Listening on 127.0.0.1:57412
+1620736760361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileqw2Kuy"
+1620736760955	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620736764281	Marionette	INFO	Listening on port 57421
+1620736764562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 65: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
+1620736782671	Marionette	INFO	Stopped listening on port 57421
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620736873716	geckodriver	INFO	Listening on 127.0.0.1:57505
+1620736876784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileeH3MJg"
+1620736877323	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620736880508	Marionette	INFO	Listening on port 57514
+1620736880981	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 215: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+1620737028720	geckodriver	INFO	Listening on 127.0.0.1:57655
+1620737031785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofilerXHCSc"
+1620737032406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620737035648	Marionette	INFO	Listening on port 57665
+1620737035980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 215: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+1620737042631	Marionette	INFO	Stopped listening on port 57665
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
