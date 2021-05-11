@@ -20,9 +20,24 @@ class RadiobtnAndCheckbox():
         hondaradiobtn = driver.find_element_by_id('hondaradio')
         hondaradiobtn.click()
 
+        time.sleep(3)
+        bmwcheckbox = driver.find_element_by_id('bmwcheck')
+        bmwcheckbox.click()
+
+        time.sleep(3)
+        benzcheckbox = driver.find_element_by_id('benzcheck')
+        benzcheckbox.click()
+
+        time.sleep(3)
+        hondacheckbox = driver.find_element_by_id("hondacheck")
+        hondacheckbox.click()
+
 
         print("BMW radio button is selected?" + str(bmwradiobtn.is_selected()))
         print("BENZ radio button is selected?" + str(benzradiobtn.is_selected()))
+        print("BMW checkbox is selected?" + str(bmwcheckbox.is_selected()))
+        print("BENZ checkbox is selected?" + str(benzcheckbox.is_selected()))
+        print("Honda checkbox is selected?" + str(hondacheckbox.is_selected()))
 
 dd = RadiobtnAndCheckbox()
 dd.QA()

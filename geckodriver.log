@@ -251,3 +251,9 @@ console.error: "Could not find engine to update"
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1620691082388	geckodriver	INFO	Listening on 127.0.0.1:50909
+1620691085441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofile3tgXJ3"
+1620691085907	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620691088976	Marionette	INFO	Listening on port 50917
+1620691089130	Marionette	WARN	TLS certificate errors will be ignored for this session
