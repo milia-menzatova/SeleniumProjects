@@ -331,16 +331,40 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
 JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
 JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 215: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
-1620737028720	geckodriver	INFO	Listening on 127.0.0.1:57655
-1620737031785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofilerXHCSc"
-1620737032406	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\Milia\AppData\Local\Temp\rust_mozprofileeH3MJg\bookmarkbackups\bookmarks-2021-05-13_11_vX3WsKqTtyScEL9nIMtnVQ==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ exists, new profile?" (new Error("", "(unknown module)"))
 1620737035648	Marionette	INFO	Listening on port 57665
 1620737035980	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
 JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
 JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 215: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
 1620737042631	Marionette	INFO	Stopped listening on port 57665
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620737213561	geckodriver	INFO	Listening on 127.0.0.1:57770
+1620737216608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofiler6E3Vj"
+1620737217126	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620737220318	Marionette	INFO	Listening on port 57778
+1620737220852	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.globalsqa.com/wp-content/cache/minify/72cc3.default.include.306296.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.globalsqa.com/demo-site/select-dropdown-menu/, line 587: SyntaxError: expected expression, got '&'
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 215: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1621533470192	geckodriver	INFO	Listening on 127.0.0.1:56578
+1621533473312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileiLGZwA"
+1621533474170	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621533477611	Marionette	INFO	Listening on port 56586
+1621533477652	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621533492163	Marionette	INFO	Stopped listening on port 56586
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 

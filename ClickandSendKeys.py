@@ -4,7 +4,7 @@ import time
 
 class ClickandSendKey():
     def qa(self):
-       driver = webdriver.Firefox()
+       driver = webdriver.Chrome()
        baceUrl = "https://www.google.com/search?client=firefox-b-d&q=facebook&sa=X&ved=2ahUKEwjS8KP3i7jwAhXEG80KHZj9DxEQ7xYoAHoECAEQMA&biw=1280&bih=607&dpr=1.5"
        driver.maximize_window()
        driver.get(baceUrl)
@@ -15,7 +15,7 @@ class ClickandSendKey():
        loginlink.click()
 
        emailfield = driver.find_element(By.ID, 'email')
-       emailfield.send_keys("Milia is")
+       emailfield.send_keys("Любі друзі")
 
        passwordfield = driver.find_element(By.ID,'pass')
        passwordfield.send_keys("78888777")
@@ -25,8 +25,10 @@ class ClickandSendKey():
        passwordfield.clear()
        time.sleep(3)
 
-       emailfield.send_keys("the Super star))")
+       emailfield.send_keys("З Днем Вишиванки))")
        passwordfield.send_keys("677888")
+       time.sleep(3)
+
 
 
 
