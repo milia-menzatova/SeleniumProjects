@@ -375,9 +375,104 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1622422166571	Marionette	INFO	Listening on port 51675
 1622422166623	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1622422931776	geckodriver	INFO	Listening on 127.0.0.1:52214
-1622422934819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileJpG9Mr"
+1622462530563	Marionette	INFO	Stopped listening on port 51675
+2422934819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileJpG9Mr"
 1622422935424	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1622422938875	Marionette	INFO	Listening on port 52223
 1622422939026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1622462531812	Marionette	INFO	Stopped listening on port 52223
+1622586885789	geckodriver	INFO	Listening on 127.0.0.1:63031
+1622586888867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofileRTM5AW"
+1622586889361	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622586892415	Marionette	INFO	Listening on port 63040
+1622586892584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622586896354	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+Extension error: TypeError: chrome.extension.sendMessage is not a function moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools.js 27
+[[Exception stack
+handleShown@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools.js:27:20
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2433:39
+]]
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:88:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:835:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:766:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:834:12
+createBrowserElement@chrome://browser/content/parent/ext-devtools-panels.js:88:18
+Extension error: TypeError: allNode is undefined moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js:104:23
+@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2433:39
+]]
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+console.log: "Already loaded reducer: extensionsSidebar"
+console.log: "Already loaded reducer: objectInspector"
+Extension error: TypeError: chrome.extension.sendMessage is not a function moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools.js 27
+[[Exception stack
+handleShown@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools.js:27:20
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2433:39
+]]
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:88:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:835:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:766:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:834:12
+createBrowserElement@chrome://browser/content/parent/ext-devtools-panels.js:88:18
+Extension error: TypeError: allNode is undefined moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js:104:23
+@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2433:39
+]]
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+initOpenItems@chrome://browser/content/nsContextMenu.js:404:48
+initItems@chrome://browser/content/nsContextMenu.js:323:10
+nsContextMenu@chrome://browser/content/nsContextMenu.js:171:10
+onpopupshowing@chrome://browser/content/webext-panels.xhtml:1:119
+openContextMenu@chrome://browser/content/nsContextMenu.js:94:9
+receiveMessage@resource:///actors/ContextMenuParent.jsm:23:9
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+showAndFormatSearchContextItem@chrome://browser/content/nsContextMenu.js:2103:47
+initMiscItems@chrome://browser/content/nsContextMenu.js:689:10
+initItems@chrome://browser/content/nsContextMenu.js:327:10
+nsContextMenu@chrome://browser/content/nsContextMenu.js:171:10
+onpopupshowing@chrome://browser/content/webext-panels.xhtml:1:119
+openContextMenu@chrome://browser/content/nsContextMenu.js:94:9
+receiveMessage@resource:///actors/ContextMenuParent.jsm:23:9
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+Extension error: TypeError: allNode is undefined moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js:104:23
+@moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2433:39
+]]
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aa
