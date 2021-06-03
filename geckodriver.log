@@ -475,4 +475,78 @@ applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
 addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2433:39
 ]]
 JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
-JavaScript error: moz-extension://979ff773-7f32-4743-aa
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://979ff773-7f32-4743-aae9-9654292d2a2f/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60061, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60061, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60061, line 33: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://courses.letskodeit.com"
+console.error: "Could not find engine to update"
+console.error: "Could not find engine to update"
+console.error: "Could not find engine to update"
+console.error: "Could not find engine to update"
+[Parent 3164, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.child4/animationsActor11, type getAnimationPlayersForNode failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:285:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+update@resource://devtools/client/inspector/animation/animation.js:729:38
+onSidebarSelectionChanged@resource://devtools/client/inspector/animation/animation.js:422:18
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+handleSelectionChange@resource://devtools/client/inspector/toolsidebar.js:216:10
+removeTab/<@resource://devtools/client/shared/components/tabs/TabBar.js:244:22
+callCallback@resource://devtools/client/shared/vendor/react-dom.js:12127:12
+commitUpdateEffects@resource://devtools/client/shared/vendor/react-dom.js:12166:19
+commitUpdateQueue@resource://devtools/client/shared/vendor/react-dom.js:12154:22
+commitLifeCycles@resource://devtools/client/shared/vendor/react-dom.js:12964:28
+commitAllLifeCycles@resource://devtools/client/shared/vendor/react-dom.js:14174:23
+commitRoot@resource://devtools/client/shared/vendor/react-dom.js:14380:28
+completeRoot/<@resource://devtools/client/shared/vendor/react-dom.js:15731:15
+unstable_runWithPriority@resource://devtools/client/shared/vendor/react.js:617:12
+completeRoot@resource://devtools/client/shared/vendor/react-dom.js:15730:27
+performWorkOnRoot@resource://devtools/client/shared/vendor/react-dom.js:15659:21
+performWork@resource://devtools/client/shared/vendor/react-dom.js:15567:24
+performSyncWork@resource://devtools/client/shared/vendor/react-dom.js:15541:14
+requestWork@resource://devtools/client/shared/vendor/react-dom.js:15410:5
+scheduleWork@resource://devtools/client/shared/vendor/react-dom.js:15224:16
+enqueueSetState@resource://devtools/client/shared/vendor/react-dom.js:8192:17
+Component.prototype.setState@resource://devtools/client/shared/vendor/react.js:328:16
+removeTab@resource://devtools/client/shared/components/tabs/TabBar.js:235:10
+removeTab@resource://devtools/client/inspector/toolsidebar.js:158:18
+removeExtensionSidebar@resource://devtools/client/inspector/inspector.js:1205:18
+unregisterInspectorExtensionSidebar@resource://devtools/client/framework/toolbox.js:2411:15
+close@chrome://browser/content/parent/ext-devtools-panels.js:428:18
+unload@resource://gre/modules/ExtensionCommon.jsm:912:11
+unload@resource://gre/modules/ExtensionParent.jsm:528:11
+unload@resource://gre/modules/ExtensionParent.jsm:609:11
+unload@resource://gre/modules/ExtensionParent.jsm:728:11
+shutdown@resource://gre/modules/ExtensionParent.jsm:520:10
+shutdown@resource://gre/modules/ExtensionParent.jsm:615:11
+shutdownExtension@resource://gre/modules/ExtensionParent.jsm:808:17
+shutdown@resource://gre/modules/Extension.jsm:2738:22
+shutdown@resource://gre/modules/Extension.jsm:1829:39
+callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:1833:33
+_shutdown@resource://gre/modules/addons/XPIProvider.jsm:1962:17
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+confirmBrowserLanguageChange@chrome://browser/content/preferences/main.js:1153:24
+
+1622689528875	Marionette	INFO	Stopped listening on port 63040
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622692376550	geckodriver	INFO	Listening on 127.0.0.1:62855
+1622692379630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofile0pV3zC"
+1622692382091	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Milia\\AppData\\Local\\Temp\\rust_mozprofile0pV3zC\\search.json.mozlz4", (void 0)))
+1622692391164	Marionette	INFO	Listening on port 62865
+1622692391281	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60061, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60061, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60061, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.1.60061, line 33: unreachable code after return statement
+1622692405933	Marionette	INFO	Stopped listening on port 62865
